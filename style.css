@@ -1,0 +1,40 @@
+.container{
+    background-color: #000080;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+}
+.grid{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    border: 1px solid #010b29;
+    background-color: #4169e1;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+}
+.tetromino{
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(49, 0, 0);
+}
+
+button{
+    background-color: #010b29;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
